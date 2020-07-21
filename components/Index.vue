@@ -173,7 +173,8 @@
 
         <!-- {% for post in paginator.posts %} -->
 
-        {% include main-loop-card.html %}
+        <!-- {% include main-loop-card.html %} -->
+          <MainLoopCard />
 
         <!-- {% endfor %} -->
 
@@ -224,9 +225,11 @@
 
 <script>
 import SiderBarFeatured from "./SidebarFeatured"
+import MainLoopCard from "./Mainloopcard"
 export default {
     components:{
-        SiderBarFeatured
+        SiderBarFeatured,
+        MainLoopCard
     }
 }
 </script>

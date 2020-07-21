@@ -1,0 +1,12 @@
+<template>
+<div class="container">
+    <h3 class="font-weight-bold spanborder"><span>标题</span></h3>
+    <div class="page-content">
+        {{ content }}
+        <!-- Comments -->
+        <!-- {% if page.comments == true %}
+        {% include comments.html %}
+        {% endif %} -->
+    </div>
+</div>
+</template>
